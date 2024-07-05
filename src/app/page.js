@@ -18,8 +18,7 @@ export default function Home() {
       <Partner /> 
       <Curosel />
       <Contact />
-      <Footer />
-     
+      <Footer />   
     </div>
   )
 }

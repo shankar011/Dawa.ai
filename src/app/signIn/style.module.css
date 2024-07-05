@@ -5,13 +5,10 @@
     background-color: #ffffff;
     height: 100vh;
 }
-
 .container img {
     margin: 2%;
     margin-left: 8%;
 }
-
-
 .container .cover {
     background-image: url("../../../public/images/maskcover.png");
     width: 50%;

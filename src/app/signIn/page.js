@@ -4,10 +4,7 @@ import Image from 'next/image';
 import dawalogo from "./images/dawaa.png";
 
 
-const Login = () => {
-
-        
-
+const Login = () => {  
     return (
         <div >
                 <Image src={dawalogo} alt="Cover" />
@@ -32,4 +29,4 @@ const Login = () => {
     )
 }
 
-export default Login
+export default Login;
