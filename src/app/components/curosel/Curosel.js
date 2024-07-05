@@ -1,9 +1,9 @@
-"use client";
-
+"useclient"
 import React, { useEffect } from 'react';
 import { Carousel } from 'bootstrap';
 import Image from 'next/image';
 import styles from "./style.module.css";
+
 import ciie from "../../../../public/img/ciie.png";
 import sine from "../../../../public/img/sine.png";
 import iimb from "../../../../public/img/iimb.png";
@@ -16,15 +16,15 @@ import jic from "../../../../public/img/jic.png";
 
 const Curosel = () => {
     useEffect(() => {
-       
         if (typeof window !== 'undefined') {
+            // Code that relies on the `document` or `window` objects
             const myCarousel = new Carousel(document.getElementById('carouselExample'), {
-                interval: 2000, 
-                wrap: true, 
+                interval: 2000, // Set the interval for carousel sliding (in milliseconds)
+                wrap: true, // Enable wrapping mode
             });
 
             return () => {
-                myCarousel.dispose(); 
+                myCarousel.dispose(); // Cleanup when the component unmounts
             };
         }
     }, []);
