@@ -25,7 +25,6 @@
     margin-top: 17%;
     
 }
-
 .cover p {
     font-family: 'Poppins';
     font-weight: 500;
@@ -33,12 +32,10 @@
     line-height: 30px;
     margin: 2%;
 }
-
 .partner {
     display: flex;
     justify-content: space-evenly;
 }
-
 .right form {
     background-color: rgb(63 123 97);
     margin-top: 25%;
@@ -49,14 +46,11 @@
     padding: 30px;
     gap: 20px;
     box-shadow: 0px 0px 8px 0px #33333329;
-
 }
-
 .right form h3 {
     margin-left: 15%;
     margin-bottom: 10%;
 }
-
 .right form input {
     width: 290px;
     border: none;
@@ -69,13 +63,10 @@
     margin-top: 5%;
     margin-bottom: 5%;
 }
-
 .right form span {
     margin-left: 45%;
-
     font-weight: 400;
 }
-
 .right form button {
     margin-top: 5%;
     border: none;
@@ -88,5 +79,4 @@
     width: 290px;
     border-radius: 10px;
     height: 40px;
-
 }
